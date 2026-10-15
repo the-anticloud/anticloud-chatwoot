@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:39a33cfc-26e9-5c12-9b64-ccb295f4b537",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:06:23Z",
+    "component": {
+      "type": "application",
+      "name": "CHATWOOT",
+      "version": "12ce7b73cc45",
+      "bom-ref": "pkg:generic/anticloud/CHATWOOT@12ce7b73cc45",
+      "purl": "pkg:generic/anticloud/CHATWOOT@12ce7b73cc45",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "12ce7b73cc45abcf4ae93f364f48fab67e78d17c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/chatwoot/chatwoot"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
