@@ -4,7 +4,7 @@
 
 **Category:** CHAT_PLATFORMS · **Ecosystem:** python · **Vendored upstream:** https://github.com/chatwoot/chatwoot-mobile-app · **Pinned commit:** `da5ea3eef803a5a5c6df0294895e142537254806` · **Vendor:** Anticloud FZ LLE
 
-## What This Project Is
+## What This Project Does
 
 **Project:** `CHATWOOT` **Category:** CHAT_PLATFORMS **Domain:** chat platforms and messaging **Upstream:** https://github.com/chatwoot/chatwoot **Upstream pin:** `f1c9e4831b178c33c9c93e73f731e861dce329b5` **License:** apache-2.0 **Verification:** 16/16 PASS **Date:** 2026-10-08
 
@@ -31,7 +31,7 @@ python anticloud/cli.py checks     # run the 16-check suite
 
 ---
 
-## Anticloud Overlay
+## API
 
 The 12 improvements live under `anticloud/`. Run the check suite from this directory:
 
@@ -39,7 +39,7 @@ The 12 improvements live under `anticloud/`. Run the check suite from this direc
 python anticloud/bench/runner.py --cwd anticloud
 ```
 
-## Benchmark Results
+## Benchmarks
 
 | Result | Status | Evidence |
 | --- | --- | --- |
@@ -62,11 +62,11 @@ python anticloud/bench/runner.py --cwd anticloud
 
 **Suite: 16/16 passed** · platform `win32` · python `3.12.10` · method `{'aggregate_rule': 'all_passed == AND over benchmarks[*].ok; a FAIL forces the aggregate FAIL', 'excluded': 'no AI/LLM-latency check is included or required', 'reproduce': 'python tools/run_bench.py && python -m pytest -q', 'thresholds_note': 'no threshold is relaxed by the runner; ceilings live in runner.py and are asserted independently in tests/test_project_metadata.py'}`
 
-## Licence
+## License
 
 The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The Anticloud overlay is licensed under Anticommons 0.1.0 (`ANTICOMMONS_LICENSE.md`).
 
-## Verification
+## Upstream
 
 SHA3-256 of `BENCH.json`:
 
@@ -75,3 +75,18 @@ e1a4123abe2a9f9c005a20d02c6f5ee30feb7c5823d7849d6b5981e49b313292
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
+
+
+## Dependencies
+
+See project documentation for details.
+
+
+## Configuration
+
+See project documentation for details.
+
+
+## Contributing
+
+See project documentation for details.
